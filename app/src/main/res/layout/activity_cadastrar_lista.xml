@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.opet.exercapplivros.CadastrarLivroActivity">
+
+    <EditText
+        android:id="@+id/editTituloLivro"
+        android:hint="@string/textTituloLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/editEdicaoLivro"
+        android:hint="@string/textEdicaoLivro"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/editValorItem"
+        android:hint="@string/textValorLivro"
+        android:layout_width="match_parent"
+        android:inputType="numberDecimal"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/checkFavorito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar aos favoritos?" />
+
+    <Button
+        android:onClick="salvarItemLista"
+        android:text="@string/btnCadastrarLivroText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="salvarLista"
+        android:text="@string/btnSalvarListaText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

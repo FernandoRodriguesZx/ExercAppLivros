@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ExercAppLivros</string>
+    <string name="loginhint">Digite o seu Login</string>
+    <string name="senhahint">Digite sua senha</string>
+    <string name="btnLogarText">Login</string>
+    <string name="btnCadastrarText">Cadastrar</string>
+    <string name="btnSair">Sair</string>
+    <string name="textTituloLivro">Digite o Nome do Livro</string>
+    <string name="textEdicaoLivro">Quantidade de Edicoes</string>
+    <string name="textValorLivro">Valor Unitário</string>
+    <string name="btnCadastrarLivroText">Cadastrar Livro</string>
+    <string name="btnSalvarListaText">Salvar Lista</string>
+    <string name="btnNovaLista">Nova Lista</string>
+    <string name="sem_lista_cadastrada">Sem Lista Cadastrada</string>
+    <string name="checkFavorito">Adicionar livros aos favoritos</string>
+</resources>
